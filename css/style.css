@@ -1,0 +1,16 @@
+.filter{
+    border-radius: 5%;
+    filter: grayscale(80%);
+}
+.filter:hover{
+    filter: grayscale(0%);
+}
+
+@media all and (max-width: 767px) {
+    .banner-responsive{
+        height: 250px;
+        object-fit: cover;
+    }
+    
+    
+}

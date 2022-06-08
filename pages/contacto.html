@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Daoua Josefina" />
+    <meta name="keywords" content="Panaderia, pan, factura, tortilla" />
+    <meta name="description" content="panaderia" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Panaderia Cocu</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fw-lighter">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">Panaderia Cocu</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="../index.html">Inicio</a>
+              <a class="nav-link" href="/pages/historia.html">Historia</a>
+              <a class="nav-link" href="/pages/productos.html">Productos</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="contacto.html"
+                >Contacto</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container my-5">
+      <section>
+        <h1 class="display-1 text-center">Contactanos</h1>
+        <hr />
+        <article class="row">
+          <aside class="col-12 col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nombreapellido" class="form-label"
+                  >Nombre y Apellido</label
+                >
+                <input
+                  type="text"
+                  id="nombreapellido"
+                  class="form-control"
+                  placeholder="Juan Perez"
+                  minlength="5"
+                  maxlength="60"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input
+                  type="text"
+                  id="Email"
+                  class="form-control"
+                  placeholder="ej: juanperez@gmail.com"
+                  minlength="5"
+                  maxlength="60"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="consulta" class="form-label">Consulta</label>
+                <textarea
+                  id="consulta"
+                  rows="4"
+                  class="form-control"
+                  placeholder="Agregue su consulta"
+                  minlength="10"
+                  maxlength="200"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </aside>
+          <aside class="col-12 col-md-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1022197705315!2d-65.20720179999999!3d-26.836700899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1654550870633!5m2!1ses-419!2sar"
+              class="w-100"
+              height="450"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </aside>
+        </article>
+      </section>
+    </main>
+    <footer class="bg-dark text-white fw-lighter text-center my-5 p-3">
+      &copy; Todos los derechos reservados
+    </footer>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
